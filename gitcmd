@@ -1,0 +1,8 @@
+1 - to initialize
+>> git init
+
+2 - to check status
+>> git status
+
+3 - to stage
+>> git add <filename/ . >
