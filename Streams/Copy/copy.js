@@ -55,3 +55,4 @@ const fs = require("fs/promises");
     console.timeEnd("copying");
   });
 })();
+console.log("check")

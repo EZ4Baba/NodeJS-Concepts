@@ -26,3 +26,4 @@ fs.copyFile("text.txt", "copied-callback.txt", function (err) {
 const fs_s = require("fs");
 
 fs_s.copyFileSync("text.txt", "copied-sync.txt");
+console.log("check")

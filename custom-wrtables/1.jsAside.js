@@ -75,3 +75,4 @@ console.log(e1.__proto__ == Person.prototype);
 // let pp1 = new Person("ritwika", 12);
 // let ee1 = new Employee("Aditya", 10, 1000000);
 // Object.setPrototypeOf(ee1, pp1);
+console.log("check")

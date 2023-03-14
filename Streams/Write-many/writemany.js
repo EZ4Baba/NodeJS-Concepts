@@ -122,3 +122,4 @@ const fs = require("fs").promises;
   });
   writemany();
 })();
+console.log("check")

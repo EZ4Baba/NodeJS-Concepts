@@ -90,3 +90,4 @@ async function renameFile(oldpath, newpath) {
     }
   }
 })();
+console.log("check")

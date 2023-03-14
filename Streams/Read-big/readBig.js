@@ -40,3 +40,4 @@ const fs = require("fs").promises;
     streamRead.resume();
   });
 })();
+console.log("check")

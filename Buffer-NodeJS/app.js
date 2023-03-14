@@ -22,3 +22,4 @@ console.log(buf2.toString());
 console.log("------------------------");
 const buf3 = Buffer.from([115], "onqown");
 console.log(buf3);
+console.log("check")

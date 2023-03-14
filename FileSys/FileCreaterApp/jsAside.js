@@ -14,3 +14,4 @@ let fs = require("fs").promises;
 
 // r => it will throw error if file doesnt exists and "r" flag is there is open command
 // w => it will create new file if it doest exits
+console.log("check")

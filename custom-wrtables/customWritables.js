@@ -101,4 +101,4 @@ class WriteStream extends Writable {
   });
   writemany();
 })();
-console.log("sanityCheck")
+
