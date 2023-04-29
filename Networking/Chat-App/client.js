@@ -36,7 +36,6 @@ const clientSocket = net.createConnection(
     const ask = async () => {
       let message = await rl.question("Enter a message > ");
       if (message == "exit") {
-        console.log("exiting...");
         clientSocket.write(`${id}-closed`);
         clientSocket.end();
       } else {
