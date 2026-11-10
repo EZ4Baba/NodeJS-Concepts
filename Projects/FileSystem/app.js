@@ -42,11 +42,14 @@ async function deleteFile(path) {
   }
 }
 
+let lastAdd = null;
 async function appendToFile(path, data) {
-  console.log("append ", path);
-  console.log("data to append ", data);
+  if (lastAdd === data) {
+    return;
+  }
   try {
     await fs.appendFile(path, data, "utf-8");
+    lastAdd = data;
   } catch (e) {
     console.error("unable to append file ", e);
   }
